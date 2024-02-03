@@ -6,7 +6,6 @@ import (
 	"log"
 	"os"
 
-	"github.com/ionfury/virtualmachine-hostdevice-defaulter/webhook"
 	"github.com/urfave/cli/v3"
 	kubevirtv1 "kubevirt.io/api/core/v1"
 	ctrl "sigs.k8s.io/controller-runtime"
