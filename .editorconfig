@@ -1,0 +1,33 @@
+# Top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line = lf
+insert_final_newline = true
+charset = utf-8
+trim_trailing_whitespace = true
+
+# Matches multiple files with brace expansion notation
+# Set default indentation to spaces, can be overridden by specific languages
+[*.{go,mod,sum}]
+indent_style = tab
+indent_size = 4
+
+[*.go]
+# Use tabs for indentation (Go standard) and set a column limit of 100
+indent_style = tab
+max_line_length = 100
+
+# Go modules and checksums
+[*.mod]
+indent_style = space
+indent_size = 4
+
+[*.sum]
+indent_style = space
+indent_size = 4
+
+# Markdown files (README.md, etc.)
+[*.md]
+trim_trailing_whitespace = false
