@@ -1,4 +1,4 @@
-module github.com/ionfury/harvester-pci-mutating-webhook
+module github.com/ionfury/virtualmachine-hostdevice-defaulter
 
 go 1.21
 
